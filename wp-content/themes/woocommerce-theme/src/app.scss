@@ -1,0 +1,26 @@
+@import '_colors';
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import 'header';
+@import 'front';
+@import 'page';
+@import 'footer';
+
+* {
+  box-sizing: border-box;
+  font-family: 'Encode Sans', sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+ul, li {
+  list-style-type: none;
+}
+
+.content-container {
+    @extend .container;
+    min-height: 300px;
+    padding: 3rem 1rem;
+}
+

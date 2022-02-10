@@ -33,3 +33,5 @@ wp-includes
 /xmlrpc.php
 
 build.env
+
+node_modules/
